@@ -1,40 +1,227 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='it'>
 <head>
-    <meta charset='UTF-8'/>
-    <meta name='viewport'
-      content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
-      <title>Federica Totaro3 | UX/UI Designer</title>
-<link rel='stylesheet' href='css/styles.css'/>
+  <meta charset='UTF-8'/>
+  <meta name='viewport'
+  content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+  <title>Federica Totaro | UX/UI Designer</title>
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+  
+  <!-- Open graph-->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Federica Totaro | UX/UI Designer"/>
+  <meta property="og:description" content="Sono un'aspirante UX/UI Designer. Progetto esperienze e interfacce digitali intuitive, gradevoli e semplici."/>
+  <meta property="og:url" content="https://federicatotaro.github.io/"/>
+  <meta property="og:image" content="hhttps://127.0.0.1:5500/assets/img/circles.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="627" />
+  <meta property="og:image:alt" content="circles" />
+
+  <!-- Javascript-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+  emailjs.init('wyLGWQbBDtKyMYgDg')
+  </script>
+      
+  <!-- Fontawesome-->
+  <script src="https://kit.fontawesome.com/1ca107af68.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
   <header>
-    <nav class="menu-container">
-      <a href="#homepage" class="nav-logo"><img= src="" alt="logo"/></a>
-      <ul>
-        <li><a href="#homepage">HOME</a></li>
-        <li><a href="#portfolio">PORTFOLIO</a></li>
-        <li><a href="#about">CHI SONO</a></li>
-        <div class="cont-btn-contatti">
-          <a href="#contatti"><button class="secondary-button">CONTATTI</button></a>
-      </ul>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-scrolled">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/img/logo.svg" alt="Logo" width="250" height="60" class="d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler collapsed ms-1 d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="toggler-icon top-bar"></span>
+          <span class="toggler-icon middle-bar"></span>
+          <span class="toggler-icon bottom-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto text-center mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">
+                HOME
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">
+                PORTFOLIO
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#chisono">
+                CHI SONO
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contatti">
+                CONTATTI
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
-
-
   </header>
 
-
-  <section>
-
+  <!-- Homepage -->
+  <section class="homepage" id="home">
+    <div class="container-home">
+      <div class="left-home">
+        <h1>Ciao, sono Federica!</h1>
+        <p>Sono un'aspirante UX/UI Designer. <br>
+          Nei miei progetti metto <em>sempre</em> le persone al centro. <br>
+          <strong>Il mio obiettivo?</strong> <br>
+          Progettare un'esperienza utente intuitiva, <br> gradevole
+          e semplice.
+        </p>
+          <a href="#chisono"><button class="main-btn">
+            Scopri di più su di me
+          </button></a>
+      </div>
+      <div class="right-home">
+          <img src="assets/img/circles.jpg" alt="abstract circles" class="img-fluid">
+      </div>
+    </div>
   </section>
 
 
+  <!-- Portfolio -->
+  <section class="portfolio" id="portfolio">
+    <h1 class="title-port">I miei progetti</h1>
+    <p class="text-port">Questi sono i progetti che ho creato grazie al percorso con <a href="https://www.start2impact.it/" class="link" target="_blank">
+      Start2Impact</a> <br>
+    Tutti i progetti sottostanti sono stati corretti e approvati dai coach di S2I.
+  </p>
+  <div class="project1">
+  <div class="projectcontent">
+    <h2 class="portfolio-h2">Copywriting</h2>
+    <p class="portfolio-text">Ho scritto un articolo per il web sulla parità di genere in ambito lavorativo.</p> <br>
+    <a href="assets/pdf/Progetto_Copywriting_di_Federica_Totaro.pdf" target="_blank" view><button class="main-btn">
+      Vedi il progetto
+    </button></a>
+  </div>
+  </div>
+  <div class="project2">
+  <div class="projectcontent">
+    <h2 class="portfolio-h2">Graphic Design</h2>
+    <p class="portfolio-text">Ho progettato la brand identity di MeditActive, un'app di meditazione.</p> <br>
+    <a href="assets/pdf/Progetto_Grafica_UXUI_di_Federica_Totaro.pdf" target="_blank" view><button class="main-btn">
+      Vedi il progetto
+    </button></a>
+  </div>
+  </div>
+  <div class="project3">
+  <div class="projectcontent">
+    <h2 class="portfolio-h2">HTML & CSS</h2>
+    <p class="portfolio-text">Ho creato il mio sito personale con il linguaggio HTML e CSS.</p> <br>
+    <a href="" target="_blank" view><button class="main-btn">
+      Vedi il progetto
+    </button></a>
+  </div>
+  </div>
+  <div class="project4">
+  <div class="projectcontent">
+    <h2 class="portfolio-h2">Discovery</h2>
+    <p class="portfolio-text">Ho analizzato il sito web di Jojob, una piattaforma di car sharing aziendale, <br>
+       e ho eseguito una ricerca utente con l'obiettivo di proporre soluzioni volte a migliorare l'esperienza utente. </p> <br>
+    <a href="assets/pdf/Progetto_Discovery_di_Federica_Totaro.pdf" target="_blank" view><button class="main-btn">
+      Vedi il progetto
+    </button></a>
+  </div>
+  </div>
+  <div class="project5">
+  <div class="projectcontent">
+    <h2 class="portfolio-h2">Wireframing</h2>
+    <p class="portfolio-text">Work in progress <br> <br>
+    <em>Il mio portfolio e le mie competenze sono in continuo aggiornamento.</em></p>
+  </div>
+  </div>
+</section>
+
+
+   <!-- Chi sono -->
+<section class="chisono" id="chisono">
+  <div class="container-chisono">
+  <div class="left-chisono">
+  <h1>È un piacere trovarti qui!</h1>
+  <p>Mi chiamo Federica e vivo a Roma. <br> Ho una formazione universitaria in ambito linguistico, 
+    grazie al quale ho sviluppato <strong>competenze linguistico-comunicative</strong>, che mi fanno sentire 
+    a mio agio anche in ambienti internazionali. <br>
+    Riesco ad empatizzare con le persone e a trovare quasi sempre un punto in comune.<br> <br>
+    Mi piace essere creativa, sono curiosa del mondo che mi circonda e di imparare sempre cose nuove. <br>
+    Proprio la mia curiosità mi ha spinto ad esplorare il mondo dell'<strong>UX/UI Design</strong>, che mi ha subito affascinata 
+    per la capacità di dar forma alle idee mettendo insieme aspetti legati alla tecnologia, psicologia,
+    ricerca e comunicazione digitale. Ho deciso di studiare questa materia con il <strong>master UX/UI Design di 
+    Start2Impact</strong>, che sto tuttora frequentando. <br> <br>
+    Fuori dal lavoro leggo libri, scatto foto, suono la chitarra e l'ukulele. <br>
+  
+    Per approfondire le mie competenze e le mie esperienze lavorative,
+    visita <strong>il mio profilo <a href="https://www.linkedin.com/in/federicatotaro/" class="link" target="_blank" rel="noopener noreferrer"><span class="linkedin">
+      LinkedIn
+    </a></span></strong>
+    e/o dai un'occhiata <strong><a href="assets/pdf/Curriculum di Federica Totaro.pdf" class="link" target="_blank"><span class="cv">
+    al mio CV.</a></span></strong>
+  </p>
+  </div>
+  <div class="right-chisono">
+  <img src="assets/img/foto chi sono.jpg" alt="foto chi sono">
+  </div>
+  </div>
+  </section>
+
+<!-- Contatti -->
+
+<section class="contatti" id="contatti">
+<header class="speaker-form-header">
+<h2>Contatti</h2>
+<h3>
+  Sei interessato a contattarmi per avere più informazioni? <br> Compila e invia il form sottostante, ti risponderò appena possibile!
+</h3>
+</header>
+<form id="form">
+  <div class="field">
+    <label for="name">Nome e cognome</label>
+    <input type="text" name="name" id="name" placeholder="Il tuo nome e cognome" required>
+  </div>
+  <div class="field">
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" placeholder='es. hello@example.com' required>
+  </div>
+  <div class="field">
+    <label for="message">Messaggio</label>
+    <textarea type="text" name="message" id="message" placeholder='Scrivi qui il tuo messaggio...' required></textarea>
+  </div>
+
+  <input type="submit" id="button" value="Invia" >
+</form>
+</section> 
+
+<!-- Footer -->
+
 <footer>
-
-
+  <div class="content-footer">
+  <div class="socialicons">
+    <div class="icon-email"><a href="mailto:ft.federicatotaro@gmail.com" target="_blank" rel="noopener noreferrer"><span><i class="fa-solid fa-at fa-xl"></i></span></a></div>
+    <div class="icon-linkedin"><a href="https://www.linkedin.com/in/federicatotaro/" target="_blank" rel="noopener noreferrer"><span><i class="fa-brands fa-linkedin fa-xl"></i></span></a></div>
+    <div class="icon-github"><a href="https://github.com/federicatotaro/github.io" target="_blank" rel="noopener noreferrer"><span><i class="fa-brands fa-github fa-xl"></i></span></a></div>
+  </div>
+  <div class="copyright">
+    <p>&copy;2023 Federica Totaro. Tutti i diritti riservati.</p>  
+  </div>
+</div>
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+</script>
+<script src="js/index.js"></script>
 
 </body>
 
