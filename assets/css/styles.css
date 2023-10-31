@@ -40,6 +40,7 @@
 .navbar-toggler {
   width: 10px;
   height: 10px;
+  margin-right: 20px;
   position: relative;
   transition: .10s ease-in-out;
 }
@@ -259,7 +260,7 @@ font-family: 'Playfair Display', serif;
   text-align: center;
 }
 
-.portfolio-h2 {
+.portfolio-h3 {
   font-size: 35px;
   font-family: 'Playfair Display', serif;
   text-align: center;
@@ -337,7 +338,7 @@ transform: scale(1.1);
   margin-right: 15px;
 }
 
-.left-chisono h1{
+.left-chisono h2{
   font-size: 58px;
   line-height: 70px;
   font-family: 'Playfair Display', serif;
@@ -503,7 +504,7 @@ padding: 10px
     padding-bottom: 48px;
   }
   
-  .left-chisono h1{
+  .left-chisono h2{
     font-size: 48px;
   }
   
@@ -597,7 +598,7 @@ padding: 10px
     padding-bottom: 15px;
   }
   
-  .left-chisono h1{
+  .left-chisono h2{
     font-size: 60px;
   }
   
