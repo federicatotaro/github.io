@@ -298,11 +298,17 @@ margin-top: 80px;
 background-color: rgba(229,191,142,255); 
 }
 
+.project6 {
+  margin-top: 80px;
+  background-color: rgba(126,143,101,255); 
+  }
+
 .project1,
 .project2, 
 .project3, 
 .project4,
-.project5 {
+.project5, 
+.project6 {
 flex-direction: column;
 justify-content: center;
 text-align: center;
