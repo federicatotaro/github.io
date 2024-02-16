@@ -303,12 +303,18 @@ background-color: rgba(229,191,142,255);
   background-color: rgba(126,143,101,255); 
   }
 
+.project7 {
+  margin-top: 80px;
+  background-color: rgba(252, 182, 97); 
+  }
+
 .project1,
 .project2, 
 .project3, 
 .project4,
 .project5, 
-.project6 {
+.project6,
+.project7 {
 flex-direction: column;
 justify-content: center;
 text-align: center;
